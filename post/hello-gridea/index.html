@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>「人文艺术与科技创新」小站启动 | 人文艺术与科技创新</title>
+<meta name="description" content="Digital Humanities, Media Art, Science, Technology and Arts, etc." />
+<link rel="shortcut icon" href="https://innovors.com//favicon.ico?v=1577069356969">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://innovors.com//styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://innovors.com/">
+  <img class="avatar" src="https://innovors.com//images/avatar.png?v=1577069356969" alt="">
+  </a>
+  <h1 class="site-title">
+    人文艺术与科技创新
+  </h1>
+  <p class="site-description">
+    Digital Humanities, Media Art, Science, Technology and Arts, etc.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              「人文艺术与科技创新」小站启动
+            </h2>
+            <div class="post-info">
+              <span>
+                2018-12-12
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://innovors.com//tag/moKmRLcOP" class="post-tag">
+                  # Gridea
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://innovors.com//post-images/hello-gridea.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>「人文艺术与科技创新」小站将更新下列主题相关的学术和教育资讯，主要围绕下列内容：</p>
+<ul>
+<li>数字人文（digital humanities）</li>
+<li>媒体艺术、互联网艺术（media art/Internet art）</li>
+<li>艺术创意与科技创新（art creativity and technology innovation）</li>
+</ul>
+<p>欢迎提供线索和投稿。投稿请至： <code>contribute # innovors.com</code> （请用 @ 替代 #）。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://innovors.com//atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
