@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://innovors.com/</id>
     <title>人文艺术与科技创新</title>
-    <updated>2019-12-30T07:43:24.279Z</updated>
+    <updated>2019-12-30T08:00:49.567Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://innovors.com/"/>
-    <link rel="self" href="https://innovors.com//atom.xml"/>
+    <link rel="self" href="https://innovors.com/atom.xml"/>
     <subtitle>Digital Humanities, Media Art, Science, Technology and Arts, etc.</subtitle>
-    <logo>https://innovors.com//images/avatar.png</logo>
-    <icon>https://innovors.com//favicon.ico</icon>
+    <logo>https://innovors.com/images/avatar.png</logo>
+    <icon>https://innovors.com/favicon.ico</icon>
     <rights>All rights reserved 2019, 人文艺术与科技创新</rights>
     <entry>
         <title type="html"><![CDATA[「人文艺术与科技创新」小站启动]]></title>
-        <id>https://innovors.com//post/hello-world</id>
-        <link href="https://innovors.com//post/hello-world">
+        <id>https://innovors.com/post/hello-world</id>
+        <link href="https://innovors.com/post/hello-world">
         </link>
         <updated>2019-12-23T06:02:21.000Z</updated>
         <content type="html"><![CDATA[<p>「人文艺术与科技创新」小站将更新下列主题相关的学术和教育资讯，主要围绕下列内容：</p>
