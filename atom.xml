@@ -2,14 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://innovors.com/</id>
     <title>人文艺术与科技创新</title>
-    <updated>2019-12-30T08:00:49.567Z</updated>
+    <updated>2020-01-02T02:02:27.569Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://innovors.com/"/>
     <link rel="self" href="https://innovors.com/atom.xml"/>
     <subtitle>Digital Humanities, Media Art, Science, Technology and Arts, etc.</subtitle>
     <logo>https://innovors.com/images/avatar.png</logo>
     <icon>https://innovors.com/favicon.ico</icon>
-    <rights>All rights reserved 2019, 人文艺术与科技创新</rights>
+    <rights>All rights reserved 2020, 人文艺术与科技创新</rights>
+    <entry>
+        <title type="html"><![CDATA[备案信息]]></title>
+        <id>https://innovors.com/post/bei-an-xin-xi</id>
+        <link href="https://innovors.com/post/bei-an-xin-xi">
+        </link>
+        <updated>2020-01-02T02:00:46.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://innovors.com//post-images/1577930463701.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「人文艺术与科技创新」小站启动]]></title>
         <id>https://innovors.com/post/hello-world</id>
